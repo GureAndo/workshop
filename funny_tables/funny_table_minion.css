@@ -1,0 +1,44 @@
+tbody{
+    padding:200px;
+}
+
+tr, td{
+    border:1px solid black
+}
+
+td{
+    width: 30px;
+    height:30px;
+    border: 1px solid darkgray;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+
+.blanc{
+    background-color: white;
+}
+
+.jaune{
+    background-color: yellow;
+}
+
+.gris{
+    background-color: grey;
+}
+
+.noir{
+    background-color: black;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.sol{
+    background-color: green;
+}

@@ -1,0 +1,57 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    width: 60%; 
+
+}
+
+thead, tfoot{
+    border: 5px solid black
+}
+
+tbody{
+    border: 5px solid black
+
+}
+
+th{
+    border: px black; 
+    padding: 4px;
+    height: 30px;
+}
+
+td{
+    font-size: 60px;
+    border:5 px black;
+    text-align: center;
+    height: 30px;
+}
+th,td{
+    border: 1px solid black ;padding:5px;
+}
+
+.jaune{
+    background-color:rgb(224, 204, 20);
+
+}
+.gris{
+    background-color: gray;
+}
+.blanc{
+    background-color: white;
+}
+.bleu{
+    background-color: blue;
+}
+.noir{
+    background-color: black;
+}
