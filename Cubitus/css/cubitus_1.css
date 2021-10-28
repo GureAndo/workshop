@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.contenu{
+    height: 200px;
+    width: 200px;
+    margin: right;
+    border-radius: 20%;
+    background: rgb(107, 38, 107);
+    border: 3px solid black;
+    margin: 0.5vh;
+    float:left;
+    transition:  margin 0.5s;
+}
+
+.contenu2{
+    height: 200px;
+    width: 200px;
+    margin: right;
+    border-radius: 20%;
+    background: hsl(120, 91%, 64%);
+    border: 3px solid black;
+    margin: 0.5vh;
+    float:left;
+    transition:  margin 0.5s;
+}
+
+.contenu:hover, .contenu2:hover{
+    margin-top: 10vh;
+}
+.clear{
+    clear:both;
+}
+
+
