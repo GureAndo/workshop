@@ -29,7 +29,7 @@ section{
 }
 
 footer{
-    background-color: lightgray ;
+    background-color: silver ;
     height: 100px;
     text-align: center;
     color: white;
@@ -40,7 +40,7 @@ footer{
     height: 162px;
     float: left;
     text-align:center;
-    color :white
+    color:white;
 }
 
 .a,.b,.e,.f{

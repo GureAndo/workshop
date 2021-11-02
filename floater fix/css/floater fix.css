@@ -1,0 +1,18 @@
+body{
+    margin: auto 0 ;
+}
+
+header, footer{
+   background-color: palevioletred;
+}
+
+.fixed{
+    position:fixed;
+    bottom: 0;
+    background-color: palevioletred;
+    width: 2000px;
+    height: 80px;
+}
+h3{
+    height:3000px;
+}

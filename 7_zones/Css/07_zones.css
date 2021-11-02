@@ -1,0 +1,50 @@
+body{
+    margin: auto 0;
+}
+div{
+    text-align: center;
+    
+ 
+}
+
+.ab{
+    height: 80px;
+    width: 1920px;
+    background-color: red;
+}
+
+ .b, .c, .d, .e, .f{
+    height: 476px;
+    width: 16.71%;
+    float:left;
+    background-color: rgb(18, 248, 106);
+    border:solid 1.5px black;
+    
+ 
+ }
+
+.a{
+  height: 558px;
+  width: 150px;
+  float: left;
+  background-color: blue;
+}
+
+.g{
+   height:558px;
+   width: 150px;
+   float:right;
+   background-color: blue;
+   
+}
+
+.h{
+    height: 80px;
+    width: 1604px;
+    float: right;
+    background-color: rgb(231, 202, 37);
+}
+
+ .clear{
+     clear:both
+ }
