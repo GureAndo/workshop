@@ -1,0 +1,76 @@
+.carre2{
+    position: fixed;
+    width  : 75px;
+    height : 75px;
+    background :blue;
+    top: 0px;
+    right: 0px;
+}
+
+.carre3{
+    position: fixed;
+    width  : 75px;
+    height : 75px;
+    background:green;
+    bottom: 0px;
+    left: 0px;
+}
+.carre1{
+    position: absolute;
+    width  : 75px;
+    height : 75px;
+    background:red;
+    top: 0px;
+    left: 0px;
+}
+.carre4{
+    position: absolute;
+    width  : 75px;
+    height : 75px;
+    background:yellow;
+    bottom: 0px;
+    right: 0px;
+}
+
+.conteneur{
+    position:static;
+    left:45%;
+    top:px ;
+    margin-top: 0;
+   padding-top: 0;
+}
+
+
+.rond{
+    position:absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    background:gray;
+    top: 150px; left:854px ;
+} 
+
+.ombre{
+    position:absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 40px;
+    background:turquoise;
+    top: 75px; left: 854px;
+}
+
+.triangle{
+    height : 0;
+    width : 0;
+    border-right : 60px solid transparent;
+    border-top : 100px solid rgb(180, 8, 108);
+    border-left : 60px solid transparent;
+    position:fixed;
+    left: 834px;
+    padding-top:0;
+    margin-top: 0;
+}
+
+body{
+    height: 2000px;
+}
