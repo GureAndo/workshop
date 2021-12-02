@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+header{
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+#logo{
+    font-size: 40px;
+}
+
+.d-flex{
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    top:-50px;
+}
+
+.triangle{
+    top: -2vw;
+    left: 47vw;
+    width: 3.4em;
+    height: 3.4em;
+    border-right: 0.6em solid rgb(56, 54, 54);
+    border-top: 0.6em solid rgb(56, 54, 54);
+    transform: rotate(134deg);
+    position:relative;
+    left:50%;
+    top: -10px;
+}
+
+.txtBanner{
+    position: relative;
+    position: relative;
+    top: -400px;
+    right:-30px;
+    color: white;
+    text-align: center;
+    font-family: Dosis, sans-serif;
+    font-size: 25px;
+}
+
+.txtBanner h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: Dosis, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    background-color: rgb(56, 54, 54);
+    color: orangered;
+    text-align: center;
+    height: 90px;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.text1{
+    position: relative;
+    top: -300px;
+    right:-30px;
+    color: white;
+    font-size: 13px;
+    
+}
+.text2{
+    position: relative;
+    top: -400px;
+    right:-700px;
+    color: white;
+    font-size: 13px;
+}
+.text3{
+    position: relative;
+    top: -480px;
+    right:-1350px;
+    color: white;
+    font-size: 13px;
+}
+
+h3{
+    background-color: rgb(56, 54, 54);
+    color: orangered;
+    text-align: center;
+    height: 90px;
+    font-size: 30px;
+}
+
+.card-group{
+    margin: 5%;
+}
+
+.row{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.email{
+    position: relative;
+   top: -340px;
+   left: 1000px;
+}
+
+iframe{
+   position: relative;
+   top: -340px;
+   left: 1000px;
+}
+
+footer{
+    background-color: rgb(56, 54, 54);
+    height: 80px;
+} 
+
+footer p{
+    color: white;
+}
+
+#social ul{
+    float: right;
+    margin-right: 50px;
+}
+
+#social li{
+    display: inline-block;
+    text-align: right;
+    margin: 0 5px;
+    color: white;
+}
+
+#social i{
+    font-size: 2em;
+}
+

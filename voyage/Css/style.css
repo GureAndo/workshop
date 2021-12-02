@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -5,7 +6,7 @@ body{
 
 /*-------------------header---------------*/
 header{
-    margin: 0;
+    top: 0;
     position: relative;
     background: rgb(7,244,214);
     background: -moz-linear-gradient(0deg, rgba(7,244,214,1) 26%, rgba(191,244,7,1) 65%);
@@ -13,7 +14,7 @@ header{
     background: linear-gradient(0deg, rgba(7,244,214,1) 26%, rgba(191,244,7,1) 65%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07f4d6",endColorstr="#bff407",GradientType=1);
     color: whitesmoke ;
-    text-shadow: gray;
+    box-shadow:1px 1px 2px gray
 } 
 
 
@@ -30,26 +31,24 @@ nav a{
     font-size: 20px;
     color: gray;
     text-decoration: none;
-    text-shadow: black;
+    
 }
 
 .inlineB{
     display:inline-block;
 }
+
 section{
     margin-top: 1%;
     margin-left: 15%;
     margin-right: 15%;
     height: 100%;  
-    position: relative;
 }
 
 #article1, #article2, #article3{
     border-radius: 30px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;  
+    flex-wrap: wrap ;
+    box-shadow: 1px 1px 2px black ;
 }
 
 #article1{
@@ -59,10 +58,7 @@ section{
     background: linear-gradient(0deg, rgba(232,104,141,1) 28%, rgba(136,195,233,1) 87%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8688d",endColorstr="#88c3e9",GradientType=1);
     color: white;
-    
-    text-align: center;
-    
-} 
+}
 
 #article2{
     background: rgb(88,208,226);
@@ -71,8 +67,8 @@ section{
     background: linear-gradient(0deg, rgba(88,208,226,1) 28%, rgba(112,123,222,1) 87%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#58d0e2",endColorstr="#707bde",GradientType=1);
     color: white;
-    text-align:center;
-    
+    display: flex;
+    flex-direction: row-reverse;
     
 } 
 
@@ -83,35 +79,37 @@ section{
     background: linear-gradient(0deg, rgba(226,187,88,1) 28%, rgba(112,123,222,1) 87%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2bb58",endColorstr="#707bde",GradientType=1); 
     color: white;
-   text-align: center;
-
+    
 } 
 
-#flex{
-    display: flex;
-    height: 400px;
-    width: 200px;
-   
-}
+
 .flex{
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    text-align: center;
+    justify-content:space-between;
     flex-direction: column;
 }
 
+
+.flex p , h2{
+    margin-left: 30%;
+    margin-top: 0;
+}
 .flex img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: flex;
-    
-
-    
+    margin-top: 40px;
+    flex-direction: row;
+    margin-left: 10%;
 }
-p{
-    width: 30%;
+.flex2 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 40px;
+    margin-right: 10%;
 }
 
 footer{
