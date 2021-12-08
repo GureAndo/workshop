@@ -1,3 +1,5 @@
+/*********************j'ai fait telement de la merde avec cette exo que je sais meme plus ce qui est utile ou non xD**************************/
+
 
 body{
     margin: 0;
@@ -14,9 +16,9 @@ header{
     background: linear-gradient(0deg, rgba(7,244,214,1) 26%, rgba(191,244,7,1) 65%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07f4d6",endColorstr="#bff407",GradientType=1);
     color: whitesmoke ;
-    box-shadow:1px 1px 2px gray
+    box-shadow:1px 1px 2px gray;
+  
 } 
-
 
 
 nav{
@@ -24,14 +26,15 @@ nav{
     position: absolute;
     top: 15px;
     right: 24px;
+    
 }
-
 nav a{
     margin: 30px;
     font-size: 20px;
     color: gray;
     text-decoration: none;
-    
+    flex-wrap: wrap ;
+
 }
 
 .inlineB{
@@ -58,6 +61,8 @@ section{
     background: linear-gradient(0deg, rgba(232,104,141,1) 28%, rgba(136,195,233,1) 87%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8688d",endColorstr="#88c3e9",GradientType=1);
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 #article2{
@@ -93,6 +98,8 @@ section{
 .flex p , h2{
     margin-left: 30%;
     margin-top: 0;
+    display:flex;
+    align-items: center;
 }
 .flex img{
     border-radius: 50%;
@@ -103,13 +110,28 @@ section{
     flex-direction: row;
     margin-left: 10%;
 }
-.flex2 img{
+.japon img{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: flex;
     margin-top: 40px;
-    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+.flexthai{
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left:15% ;
+}
+.thai img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 40px;
+    margin-left:-10%;
 }
 
 footer{
