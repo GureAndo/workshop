@@ -20,46 +20,61 @@
 </head>
 
 <body>
+    <!-----------------------------------------DEBUT HEADER/NAV------------------------------------------------>
     <header>
+
         <nav>
             <div id="logo">
-                <img src="img/logo.png" alt="companny name " style="width: 80px;">
-                COMPANY NAME
+                <img src="img/logo.png" alt="companny name " style="width: 80px;">COMPANY NAME
+
             </div>
+            
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#" style="color: orangered;">HOME <hr></a>
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #f0ad4e;">HOME
+                        <hr>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#project" style="color: orangered;">PROJECTS</a>
+                    <a class="nav-link" href="#project" style="color: #f0ad4e;">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: orangered;">COMPANY</a>
+                    <a class="nav-link" href="#" style="color: #f0ad4e;">COMPANY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: orangered;">CONTACT</a>
+                    <a class="nav-link" href="#" style="color: #f0ad4e;">CONTACT</a>
                 </li>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit" style="color: orangered;">Search</button>
-                </form>
             </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit" style="color: #f0ad4e;">Search</button>
+            </form>
         </nav>
     </header>
+    <!-----------------------------------------FIN HEADER/NAV----------------------------------------------------------->
+    <!-----------------------------------------DEBUT BANIERE----------------------------------------------------------->
     <main>
-        <img src="img/banner-buisnessman.jpg" alt="banner">
+        <div class="banner">
+            <img src="img/banner-buisnessman.jpg" alt="banner">
+        </div>
+
         <div class="txtBanner">
-            <p>
-                <h1>"Quality needs precision and time..."</h1> <br> It is our motto here at Company Name, to put our
+
+            <h1>"Quality needs precision and time..."</h1>
+            <p>It is our motto here at Company Name, to put our
                 knowledge at your disposal to fulfill your vision.
             </p>
         </div>
 
         <p class="triangle"></p>
+        <!-----------------------------------------FIN BANIERE----------------------------------------------------------->
+        <!-----------------------------------------DEBUT DE LA SECTION "OUR PROJECT"----------------------------------------------------------->
         <section>
             <h2>OUR PROJECTS</h2>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!--j'avais utiliser bootstrap pour les image d'architecture mais j'ai prefere les fait en flex voici un vestige de ce que sa aurais pu etre-->
+
+            <!-- <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
                         <img src="img/architecture-1.jpg" class="card-img-top" alt="maison n°1">
@@ -81,39 +96,61 @@
                         </div>
                     </div>
                 </div>
+            </div>-->
+            <div class="txt">
+                <div class="text1">
+                    <h4>FAKE HOUSE </h4>
+
+                    <p>
+                        This house is the one you need to live a great family life, you'll need <br> a
+                        couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't
+                        do
+                        happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
+                    </p>
+                    <p>
+                        for sale since 1998
+                    </p>
+                </div>
+                <div class="text2">
+                    <h4>FAKE HOUSE</h4>
+                    <p>
+                        Fake House: This house is the one you need to live a great family life, you'll need <br> a
+                        couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't
+                        do
+                        happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
+                    </p>
+                    <p>
+                        for sale for 3 month
+                    </p>
+                </div>
+                <div class="text3">
+                    <h4>FAKE HOUSE</h4>
+                    <button type="button" class="btn btn-danger btn-sm" style="border-radius: 9%;">sold</button>
+                    <p>
+                        This house is the one you need to live a great family life, you'll need <br> a
+                        couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't
+                        do
+                        happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
+                    </p>
+
+                </div>
             </div>
 
-            <div class="text1">
-                <p>
-                    Fake House: This house is the one you need to live a great family life, you'll need <br> a
-                    couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't do
-                    happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
-                </p>
+            <div class="see">
+                <a href="">see more<i class="fas fa-arrow-right"></i></a>
             </div>
-            <div class="text2">
-                <p>
-                    Fake House: This house is the one you need to live a great family life, you'll need <br> a
-                    couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't do
-                    happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
-                </p>
-            </div>
-            <div class="text3">
-                <p>
-                    Fake House: This house is the one you need to live a great family life, you'll need <br> a
-                    couple of money to harmonized your stuffs. You should considere at this offer. <br> Money don't do
-                    happiness, but it buy you a house which gave you a part of joy <br> you are searching for.
-                </p>
-            </div>
+            <div class="clear"></div>
         </section>
-
+        <!-----------------------------------------FIN DE LA SECTION "OUR PROJECT"----------------------------------------------------------->
+        <!-----------------------------------------DEBUT DE LA SECTION "OUR COMUNITY"----------------------------------------------------------->
         <section>
             <h3>OUR COMUNITY</h3>
 
             <div class="card-group">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-1-1.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-1-1.jpg" class="img-fluid rounded-start" alt="fake employer 1">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -126,10 +163,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-2-2.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-2-2.jpg" class="img-fluid rounded-start" alt="fake employer 2">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -142,10 +179,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-1-3.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-1-3.jpg" class="img-fluid rounded-start" alt="fake employer 3">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -160,10 +197,10 @@
                 </div>
             </div>
             <div class="card-group">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-2-4.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-2-4.jpg" class="img-fluid rounded-start" alt="fake employer 4">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -176,10 +213,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-1-5.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-1-5.jpg" class="img-fluid rounded-start" alt="fake employer 5">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -192,10 +229,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; border: none;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="img/worker-2-6.jpg" class="img-fluid rounded-start" alt="...">
+                            <img src="img/worker-2-6.jpg" class="img-fluid rounded-start" alt="fake employer 6">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -209,54 +246,78 @@
                     </div>
                 </div>
             </div>
+
+            <div class="see">
+                <a href="">see more<i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="clear"></div>
         </section>
+        <!-----------------------------------------FIN DE LA SECTION "OUR PROJECT"----------------------------------------------------------->
+        <!-----------------------------------------DEBUT DE LA SECTION "CONTACT US"----------------------------------------------------------->
         <section>
             <h3>CONTACT US</h3>
+            <div class="contact">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                            style="width: 285px;">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                            style="width: 285px;">
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="mail">
+                    <label for="inputCity" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Email" aria-label="Email"
+                        style="width: 285px;">
+                </div>
+                <div class="reason">
+                    <label for="inputState" class="form-label"></label>
+                    <select id="inputState" class="form-select" style="width: 285px;">
+                        <option selected>Reason...</option>
+                        <option>...</option>
+                        <option>...</option>
+                        <option>...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="clear"></div>
 
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"
-                        style="width: 285px;">
+                <div class="chat">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        style="width: 600px;"></textarea>
                 </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
-                        style="width: 285px;">
+
+                <div class="clear"></div>
+                <div class="agree">
+                    <input type="checkbox" name="reponce 1"> I agree
                 </div>
+                <div class="clear"></div>
+                <div class="Email">
+                    <input type="checkbox" class="btn-check" id="btn-check">
+                    <!--autocomplete="off">-->
+                    <label class="btn btn-primary" for="btn-check" style="width: 600px;">send Email</label>
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.2661485501803!2d2.0337920252653965!3d48.91914273676969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6891585cbea25%3A0xcb1578328a744b8f!2s59%20Pl.%20Corneille%2C%2078300%20Poissy!5e0!3m2!1sfr!2sfr!4v1638443800900!5m2!1sfr!2sfr"
+                    width="600" height="350" style="border:5px solid black;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+                <div class="clear"></div>
+                <div class="see">
+                    <a href="">more contact<i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="clear"></div>
+
             </div>
-            <div class="clear"></div>
-            <div class="col-md-6">
-                <label for="inputCity" class="form-label"></label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Email" aria-label="Email"
-                    style="width: 600px;">
-            </div>
-            <div class="col-md-4">
-                <label for="inputState" class="form-label"></label>
-                <select id="inputState" class="form-select" style="width: 600px;">
-                    <option selected>Reason...</option>
-                    <option>...</option>
-                    <option>...</option>
-                    <option>...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="clear"></div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    style="width: 600px;"></textarea>
-            </div>
-            <P>
-                <input type="checkbox" name="reponce 1"> I agree
-            </P>
-            <div class="Email">
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-primary" for="btn-check" style="width: 600px;">send Email</label>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.2661485501803!2d2.0337920252653965!3d48.91914273676969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6891585cbea25%3A0xcb1578328a744b8f!2s59%20Pl.%20Corneille%2C%2078300%20Poissy!5e0!3m2!1sfr!2sfr!4v1638443800900!5m2!1sfr!2sfr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
+
         </section>
+        <!-----------------------------------------FIN DE LA SECTION "CONTACT US"----------------------------------------------------------->
+        <!-----------------------------------------DEBUT FOOTER----------------------------------------------------------->
     </main>
     <footer>
         <p>© company name</p>
@@ -269,10 +330,11 @@
         </div>
 
     </footer>
-
+    <!-----------------------------------------FIN FOOTER----------------------------------------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
 </body>
 
 </html>

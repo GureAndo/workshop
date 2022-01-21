@@ -1,20 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+/**********DEBUT HEADER/NAV***************/
 header{
     background-color: rgb(56, 54, 54);
     color: white;
+    overflow: hidden;
 }
 #logo{
-    font-size: 40px;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-family: 'Texturina';
+    overflow: hidden;
 }
 
 .d-flex{
+    height: 45px;
+    width: 320px;
+    overflow: hidden;
+    float: right;
+    margin-top: -120px;
+    margin-right: 25px;
+}
+.nav-item{
     display: inline-block;
     position: relative;
-    left: 450px;
-    top:-50px;
+    left: 120px;
+    top :-40px;
+    overflow: hidden;
 }
-
+.nav-item:hover{
+    background-color:#000;   
+    transition: 2s;
+    overflow: hidden;
+}
+/**********FIN HEADER/NAV***************/
+/**********DEBUT BANNIERE***************/
 .triangle{
     top: -2vw;
     left: 47vw;
@@ -26,10 +49,10 @@ header{
     position:relative;
     left:50%;
     top: -10px;
+    overflow: hidden;
 }
 
 .txtBanner{
-    position: relative;
     position: relative;
     top: -400px;
     right:-30px;
@@ -37,6 +60,12 @@ header{
     text-align: center;
     font-family: Dosis, sans-serif;
     font-size: 25px;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    overflow: hidden;
 }
 
 .txtBanner h1{
@@ -45,87 +74,188 @@ header{
     text-align: center;
     font-family: Dosis, sans-serif;
     font-size: 50px;
+    overflow: hidden;
 }
 
+/**********FIN BANNIERE***************/
+/**********DEBUT SECTION "OUR PROJECT"***************/
 h2{
     background-color: rgb(56, 54, 54);
-    color: orangered;
+    color: #f0ad4e;
     text-align: center;
-    height: 90px;
+    height: 110px;
+    font-family: 'Texturina';
+    overflow: hidden;
 }
 .col img{
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
+
+.txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 55px;
+    overflow: hidden;
+}
+
+h4{
+    color: white;
+    overflow: hidden;
+}
+
+.text1, .text2, .text3{
+    height: 350px;
+    width: 500px;
+    display: flex;
+    color: white;
+    border: 3px  solid black;
+    align-items:start;
+    text-align: center;
+    border-radius: 1%;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+}
 
 .text1{
-    position: relative;
-    top: -300px;
-    right:-30px;
-    color: white;
     font-size: 13px;
-    
+    background-image: url(../img/architecture-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .text2{
-    position: relative;
-    top: -400px;
-    right:-700px;
-    color: white;
     font-size: 13px;
+    background-image: url(../img/architecture-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .text3{
-    position: relative;
-    top: -480px;
-    right:-1350px;
-    color: white;
     font-size: 13px;
+    background-image: url(../img/architecture-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.text3 button{
+    display: flex;
+    align-self: flex-end;
+    overflow: hidden;
+}
+
+.text1:hover, .text2:hover, .text3:hover{
+    font-size: 100%;
+    display: inline;
+    box-shadow: 5px 10px 10px grey;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.see{
+    float: right; 
+    overflow: hidden;
+}
+.see a{
+    text-decoration: none;
+    color:#f0ad4e ;
+    overflow: hidden;
+}
+.see a i{
+    color: #f0ad4e;
+    overflow: hidden;
+}
+/**********FIN SECTION "OUR PROJECT"***************/
+/**********DEBUT SECTION "OUR COMUNITY"***************/
 h3{
     background-color: rgb(56, 54, 54);
-    color: orangered;
+    color: #f0ad4e;
     text-align: center;
-    height: 90px;
+    height: 110px;
     font-size: 30px;
+    font-family: 'Texturina';
+    overflow: hidden;
 }
 
+.card-body{
+    border: none;
+    overflow: hidden;
+}
 .card-group{
     margin: 5%;
+    overflow: hidden;
 }
-
+ /**********FIN SECTION "OUR COMUNITY"***************/
+ /**********DEBUT SECTION "CONTACT US"***************/
 .row{
     float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+
+.reason{
+    float:left;
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.mail, .chat, .agree, .Email {
+    float: left;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+
+iframe{
+    float: right;
+    margin-top: -290px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+iframe:hover{
+    height: 200%;
+    transition-duration: 1s;
+    display: inline;
+    overflow: hidden;
 }
 
 .clear{
     clear: both;
+    overflow: hidden;
 }
 
-.email{
-    position: relative;
-   top: -340px;
-   left: 1000px;
-}
-
-iframe{
-   position: relative;
-   top: -340px;
-   left: 1000px;
-}
-
+/**********FIN SECTION "CONTACT US"***************/
+/**********DEBUT FOOTER***************/
 footer{
     background-color: rgb(56, 54, 54);
-    height: 80px;
+    height: 110px;
+    overflow: hidden;
 } 
 
 footer p{
     color: white;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    overflow: hidden;
 }
 
 #social ul{
     float: right;
     margin-right: 50px;
+    margin-top: 40px;
+    overflow: hidden;
+ 
 }
 
 #social li{
@@ -133,9 +263,12 @@ footer p{
     text-align: right;
     margin: 0 5px;
     color: white;
+    overflow: hidden;
 }
 
 #social i{
     font-size: 2em;
+    overflow: hidden;
 }
 
+/**********FIN***************/

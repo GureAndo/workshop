@@ -1,0 +1,21 @@
+ul li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  width: 800px;
+}
+.photo-list img {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.photo-list img:hover {
+  background-color: silver;
+}
+.selected {
+  background-color: forestgreen;
+}
+
+p em {
+  color: red;
+}
